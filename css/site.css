@@ -39,12 +39,14 @@ body {
 	}
 
 	.page-contents-list a:focus {
+		outline: none;		
 		background: black;
-		outline: none;
+		color: white;
+		font-weight: bolder;		
 	}
 
 	.page-contents-list a:hover {
-		background: green;
+		background: #01FF70;
 	}
 
 	.page-contents-list a:active {
